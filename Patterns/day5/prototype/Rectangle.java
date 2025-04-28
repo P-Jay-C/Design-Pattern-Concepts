@@ -1,4 +1,4 @@
-package day5;
+package day5.prototype;
 
 public class Rectangle implements Shape{
     private int width;

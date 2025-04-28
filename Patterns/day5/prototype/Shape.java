@@ -1,4 +1,4 @@
-package day5;
+package day5.prototype;
 
 public interface Shape extends Cloneable{
     Shape clone();

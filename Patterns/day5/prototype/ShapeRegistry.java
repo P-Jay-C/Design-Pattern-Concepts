@@ -1,4 +1,4 @@
-package day5;
+package day5.prototype;
 
 import java.util.HashMap;
 import java.util.Map;
