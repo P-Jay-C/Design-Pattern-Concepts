@@ -1,6 +1,6 @@
 package day7.mediator;
 
-public class MeidatorTest {
+public class MediatorTest {
     public static void main(String[] args) {
         ChatRoomMediator chatRoom = new ChatRoomMediator();
 
