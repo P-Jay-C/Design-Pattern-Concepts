@@ -1,4 +1,4 @@
-package decorator;
+package day9.decorator;
 
 public class SimpleNotification implements Notification{
     @Override

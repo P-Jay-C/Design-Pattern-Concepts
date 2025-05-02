@@ -1,4 +1,4 @@
-package decorator;
+package day9.decorator;
 
 public class SMSNotificationDecorator extends EmailNotificationDecorator{
     protected SMSNotificationDecorator(Notification decoratedNotification) {

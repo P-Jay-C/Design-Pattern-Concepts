@@ -1,4 +1,4 @@
-package decorator;
+package day9.decorator;
 
 public abstract class NotificationDecorator implements Notification {
     protected Notification decoratedNotification;

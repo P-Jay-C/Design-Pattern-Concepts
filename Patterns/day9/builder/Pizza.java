@@ -1,4 +1,4 @@
-package day9;
+package day9.builder;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package day9;
+package day9.builder;
 
 public class BuilderTest {
     public static void main(String[] args) {
