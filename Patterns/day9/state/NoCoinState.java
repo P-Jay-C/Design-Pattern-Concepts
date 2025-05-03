@@ -1,7 +1,5 @@
 package day9.state;
 
-import static java.lang.System.out;
-
 public class NoCoinState implements State {
     @Override
     public void insertCoin(VendingMachine machine) {
