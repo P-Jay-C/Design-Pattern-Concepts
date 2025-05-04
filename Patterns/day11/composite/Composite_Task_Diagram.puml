@@ -1,0 +1,37 @@
+@startuml
+interface TaskComponent {
+    +getName(): String
+    +getTimeHours(): int
+    +display(): void
+}
+
+class Task {
+    -name: String
+    -timeHours: int
+    +Task(name: String, timeHours: int)
+    +getName(): String
+    +getTimeHours(): int
+    +display(): void
+}
+
+class TaskGroup {
+    -name: String
+    -components: List<TaskComponent>
+    +TaskGroup(name: String)
+    +add(component: TaskComponent): void
+    +getName(): String
+    +getTimeHours(): int
+    +display(): void
+}
+
+TaskComponent <|.. Task
+TaskComponent <|.. TaskGroup
+TaskGroup o--> "many" TaskComponent : components
+
+note right of TaskGroup
+    TaskGroup aggregates TaskComponent instances,
+    which can be either Task or TaskGroup,
+    forming a tree structure.
+end note
+
+@enduml
